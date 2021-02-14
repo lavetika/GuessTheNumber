@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
 
         guessed.setOnClickListener {
             if (!won) {
-                guessings.setText("I guessed your number, it's: " + num)
+                guessings.setText("I guessed your number! It's: " + num)
                 guessed.setText("Play again")
                 won = true
             } else {
